@@ -10,9 +10,9 @@ int main()
 	string data_input;
 	string word_list_input;
 	string line;
-	cout << "Enter the name of a text file that contains the data set" << endl;
+	cout << "Enter the name of a text file that contains the data set. User should enter ExampleDataInput.txt or a text file formatted like ExampleDataInput.txt" << endl;
 	cin >> data_input;
-	cout << "Enter the name of a text file that contains the list of words to search for" << endl;
+	cout << "Enter the name of a text file that contains the list of words to search for. User should enter ExampleWordListInput.txt or a text file formatted like ExampleWordListInput.txt" << endl;
 	cin >> word_list_input;
 	if (data_input.substr(data_input.length() - 4, 4) != ".txt")
 	{
